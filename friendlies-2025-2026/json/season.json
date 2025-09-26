@@ -1,0 +1,23 @@
+{
+    "season": "2025-26",
+    "game_weeks": {
+        "1": {
+            "date": "13/09/2025",
+            "time": "9:00",
+            "opponent": "Hucclecote Youth U7",
+            "location": "Away",
+            "venue": "King George V Playing Fields Upton Close, Gloucester",
+            "score": "",
+            "notes": ""
+        },
+        "2": {
+            "date": "13/09/2025",
+            "time": "9:30",
+            "opponent": "Hucclecote Youth U7",
+            "location": "Away",
+            "venue": "King George V Playing Fields Upton Close, Gloucester",
+            "score": "",
+            "notes": ""
+        }
+    }
+}

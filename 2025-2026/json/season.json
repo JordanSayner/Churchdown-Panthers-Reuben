@@ -1,0 +1,32 @@
+{
+    "season": "2025-26",
+    "game_weeks": {
+        "1": {
+            "date": "20/09/2025",
+            "time": "9:45",
+            "opponent": "Southside Star Youth U7 Pumas",
+            "location": "Away",
+            "venue": "Bournside Sports Centre",
+            "score": "1-1",
+            "notes": "Reuben scored his first goal!!"
+        },
+        "2": {
+            "date": "20/09/2025",
+            "time": "10:10",
+            "opponent": "Prestbury Phantoms U7 Sharks",
+            "location": "Away",
+            "venue": "Bournside Sports Centre",
+            "score": "",
+            "notes": "Reuben didnt play this game"
+        },
+        "3": {
+            "date": "20/09/2025",
+            "time": "10:35",
+            "opponent": "Hucclecote Youth U7 Blues",
+            "location": "Home",
+            "venue": "Bournside Sports Centre",
+            "score": "0-6",
+            "notes": "Reuben played the first half"
+        }
+    }
+}

@@ -15,7 +15,7 @@
     <title>Football Tracker</title>
 
     <!-- STYLESHEET -->
-    <link href="css/stylesheet.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../css/stylesheet.css" media="all" rel="stylesheet" type="text/css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +27,11 @@
 
     <header class="header">
         <div class="header__brand">
-            <img src="img/logo.png" alt="Churchdown Panthers FC">
-            <h1 class="header-1">Churchdown Panthers FC</h1>
+            <img src="../img/logo.png" alt="Churchdown Panthers FC - Under 7s">
+            <h1 class="header-1">Churchdown Panthers FC - Under 7s</h1>
+        </div>
+        <div class="header__action">
+            <a href="/" title="Home" class="button">Back</a>
         </div>
     </header>
 
@@ -38,43 +41,21 @@
             <div class="section-header__wrapper">
                 <div class="section-header start-animation">
                     <div class="section-header__title">
-                        <h2 class="header-2">Season</h2>
+                        <h2 class="header-2">Results</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="button__wrapper">
-                <a href="/2025-2026/" title="" class="button" data-button-type="outline">2025/2026</a>
-            </div>
-
-            <div class="section-header__wrapper">
-                <div class="section-header start-animation">
-                    <div class="section-header__title">
-                        <h2 class="header-2">Friendlies</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="button__wrapper">
-                <a href="/friendlies-2025-2026/" title="" class="button" data-button-type="outline">2025/2026</a>
-            </div>
-
-            <!-- <div class="section-header__wrapper">
-                <div class="section-header start-animation">
-                    <div class="section-header__title">
-                        <h2 class="header-2">Tournments</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="button__wrapper">
-                <a href="/broadwell-2025/" title="" class="button" data-button-type="outline">Broadwell 2025</a>
-                <a href="/tewkesbury-2025-oranges/" title="" class="button" data-button-type="outline">Tewkesbury 2025 -
-                    Oranges</a>
-                <a href="/tewkesbury-2025-yellows/" title="" class="button" data-button-type="outline">Tewkesbury 2025 -
-                    Yellows</a>
-                <a href="/prestbury-2025/" title="" class="button" data-button-type="outline">Prestbury 2025</a>
-            </div> -->
+            <table id="matchDetails">
+                <colgroup>
+                    <col style="width: 300px;">
+                    <col style="width: 80px;">
+                    <col>
+                </colgroup>
+                <tbody>
+                    <!-- Data will be inserted dynamically -->
+                </tbody>
+            </table>
 
         </div>
     </section>
